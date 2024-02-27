@@ -1,0 +1,262 @@
+@font-face {
+  font-family: "sofia-pro";
+  src: url(/font/Sofia\ Pro\ Semi\ Bold\ Az.woff);
+}
+@font-face {
+  font-family: "sofia-pro-light";
+  src: url(/font/Sofia\ Pro\ Light\ Az.woff);
+}
+@font-face {
+  font-family: "sofia-pro-regular";
+  src: url(/font/Sofia\ Pro\ Regular\ Az.woff);
+}
+a {
+  text-decoration: none;
+  color: #88a0a7;
+}
+h3 {
+  font-family: "sofia-pro";
+  font-size: 25px;
+  /* font-size: 1.4em !important; */
+}
+h6 {
+  font-family: "sofia-pro-regular";
+  font-size: 17px;
+  /* font-size: 1em !important; */
+  margin-bottom: 20px;
+}
+p {
+  line-height: 2em;
+}
+.main-text {
+  display: inline-block;
+  padding: 0 10px 15px;
+  border-bottom: 4px solid #d47559;
+  margin: 0;
+  font-family: "sofia-pro-regular";
+}
+/*  */
+#body {
+  background-color: #0d202b;
+  color: #88a0a7;
+  font-size: 16px;
+  position: relative;
+}
+.header {
+  width: 100vw;
+  margin: 10px 0;
+}
+.nav-brand {
+  height: 22px;
+  padding: 0 10px;
+}
+.search-form {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.dropdown {
+  max-width: max-content;
+  background-color: #123040;
+}
+.search-bar {
+  width: 75%;
+  background: #102531;
+  border: 1px solid #17313a;
+  color: white;
+}
+.search-bar::placeholder {
+  color: #88a0a7;
+}
+.search-bar:focus-within {
+  border: 1px solid #d47559;
+  background: #102531;
+  color: white;
+}
+.search-icon {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+.nav {
+  margin-bottom: 30px;
+  background: #102531;
+  border: 1px solid #17313a;
+}
+.nav ul.menu {
+  list-style: none;
+  margin: 0;
+}
+.nav ul.menu h6 {
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.nav ul.menu .active {
+  color: white;
+  border-bottom: 4px solid #d47559;
+}
+
+
+.zoom-img {
+  width: 500px; 
+  transition: transform .2s ease-out; 
+}
+.icon-img {
+  width: 15px; 
+  height: auto; 
+}
+.syn-img{
+  margin-right: 30px;
+  width: 25px; 
+  height: auto; 
+}
+
+
+.champion {
+  margin-top: 200px;
+}
+.champion hr {
+  margin-top: 0 !important;
+}
+.side-info {
+  padding-right: 30px !important;
+}
+.portrait {
+  margin-bottom: 40px;
+}
+.portrait img {
+  width: 320px;
+  height: auto;
+  background: #0d202b;
+  /* border-radius: 50%; */
+}
+.portrait img:hover {
+  transform: scale(1.10);
+}
+
+.item .build {
+  padding: 10px;
+}
+.item .build img {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+.stats h6 {
+  margin-bottom: 20px;
+}
+.main-info {
+  border-left: 1px solid #17313a;
+}
+.build,
+.build-info,
+.abilities {
+  background: #102531;
+  border: 1px solid #17313a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.abilities img {
+  width: 60px;
+  height: 60px;
+}
+.abilities .description {
+  margin-left: 30px;
+}
+.abilities .description .header,
+.abilities .description .body {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background: #102531;
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid #17313a;
+}
+.links a {
+  margin: 0 30px;
+  color: #88a0a7;
+  text-decoration: none;
+}
+.links a.language {
+  background-color: #123040;
+  padding: 6px 12px;
+}
+
+
+
+
+
+
+
+
+/*  */
+.build-info {
+  display: none;
+  position: absolute;
+  top: 350px;
+  left: 0;
+  z-index: 200;
+  max-width: 500px;
+  min-width: 200px;
+  padding: 0px;
+}
+.build-1:hover + .build-info.info-1 {
+  cursor: pointer;
+  display: block;
+}
+.build-2:hover + .build-info.info-2 {
+  cursor: pointer;
+  display: block;
+}
+.build-3:hover + .build-info.info-3 {
+  cursor: pointer;
+  display: block;
+}
+.build-info h6,
+.build-info p {
+  margin: 0;
+}
+.build-info > div {
+  border-bottom: 1px solid #17313a;
+}
+.build-info .heading {
+  margin: 5px;
+}
+.build-info .heading img {
+  width: 40px;
+  height: 40px;
+}
+.build-info .name {
+  padding: 2.5px 10px;
+}
+.build-info .body {
+  margin: 2.5px 5px;
+  padding: 5px;
+}
+.build-info .footer {
+  padding: 10px;
+}
+.build-info .footer h6 {
+  display: inline-block;
+}
+.build-info .footer img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
